@@ -1,13 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, SafeAreaView, StatusBar } from "react-native";
+import { StyleSheet, StatusBar, View } from "react-native";
 import tw from "tailwind-react-native-classnames";
+import Map from "../components/Map";
 
 const MapScreen = () => {
     return (
-        <SafeAreaView style={tw`bg-red-200 h-full`}>
-            <Text style={styles.container}>Here is a map stuff..</Text>
-            <Text>Here is a map stuff..,,,.</Text>
-        </SafeAreaView>
+        <View>
+            <Map />
+        </View>
     );
 };
 
