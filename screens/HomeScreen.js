@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View, SafeAreaView, StatusBar, Image } from "react-native";
+import { StyleSheet, View, SafeAreaView, StatusBar, Image } from "react-native";
 import tw from "tailwind-react-native-classnames";
 import NavOptions from "../components/NavOptions";
 
@@ -27,7 +27,6 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         marginTop: StatusBar.currentHeight,
     },
     text: {
